@@ -15,6 +15,10 @@
 修改`/system/usr/keychars/`和`/system/usr/keylayout/`：
 见[键盘配置文件](键盘配置文件)
 
+## 相关二进制文件
+
+本文给出链接的二进制文件备份在[相关二进制文件](相关二进制文件)
+
 ## CVE-2016-5195
 
 [CVE-2016-5195](https://github.com/timwr/CVE-2016-5195)(dirtycow/dirtyc0w)存在，但无法用这个工具临时获取root权限。
