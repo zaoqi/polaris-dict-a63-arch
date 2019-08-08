@@ -12,5 +12,5 @@
 
 ## 修复快译通诡异的键盘配置
 
-修改/system/usr/keychars/和/system/usr/keylayout/：
+修改`/system/usr/keychars/`和`/system/usr/keylayout/`：
 见[键盘配置文件](键盘配置文件)
