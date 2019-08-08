@@ -3,7 +3,7 @@
 
 ## 启动器激活Android图标
 
-见 [启动器激活Android图标相关工具](启动器激活Android图标相关工具/README.md)
+见 [启动器激活Android图标相关工具](启动器激活Android图标相关工具)
 
 ## Archlinux + X11 + LXDE
 
@@ -13,4 +13,4 @@
 ## 修复快译通诡异的键盘配置
 
 修改/system/usr/keychars/和/system/usr/keylayout/：
-见[键盘配置文件/README.md](键盘配置文件/README.md)
+见[键盘配置文件](键盘配置文件)
