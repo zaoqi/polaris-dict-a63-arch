@@ -27,3 +27,8 @@
 | PAGE_DOWN（两个向下箭头）||`]`+`}` |
 | ESCAPE（返回） |       | `TAB` |
 | HOME（主页） |         | `=`+`+` |
+
+# 隐藏导航栏的界面里没有主页键的解决方法
+
+0. 安装并配置[Xposed](https://dl-xda.xposed.info/modules/de.robv.android.xposed.installer_v33_36570c.apk)
+0. 安装并配置[Xposed edge](https://dl-xda.xposed.info/modules/com.jozein.xedge_v55_4aef58.apk)，设置某个不常用按键的长按或者双击为主页。
