@@ -1,0 +1,85 @@
+diff -urN origin/keychars/Generic.kcm master/keychars/Generic.kcm
+--- origin/keychars/Generic.kcm	2019-08-08 23:24:54.000000000 +0800
++++ master/keychars/Generic.kcm	2019-08-08 23:29:58.000000000 +0800
+@@ -220,13 +220,13 @@
+ key 5 {
+     label:                              '5'
+     base:                               '5'
+-    shift:                              '/'
++    shift:                              '%'
+ }
+ 
+ key 6 {
+     label:                              '6'
+     base:                               '6'
+-    shift:                              '-'
++    shift:                              '^'
+     alt+shift:                          '\u0302'
+ }
+ 
+diff -urN origin/keylayout/Generic.kl master/keylayout/Generic.kl
+--- origin/keylayout/Generic.kl	2019-08-08 23:25:03.000000000 +0800
++++ master/keylayout/Generic.kl	2019-08-08 23:52:10.000000000 +0800
+@@ -20,7 +20,7 @@
+ # a new key layout file with the required keyboard configuration.
+ #
+ 
+-key 1     ESCAPE
++key 1     TAB
+ key 2     1
+ key 3     2
+ key 4     3
+@@ -121,14 +121,14 @@
+ key 99    SYSRQ
+ key 100   ALT_RIGHT
+ # key 101 "KEY_LINEFEED"
+-key 102   HOME
++key 102   EQUALS
+ key 103   DPAD_UP
+-key 104   PAGE_UP
++key 104   LEFT_BRACKET
+ key 105   DPAD_LEFT
+ key 106   DPAD_RIGHT
+ key 107   MOVE_END
+ key 108   DPAD_DOWN
+-key 109   PAGE_DOWN
++key 109   RIGHT_BRACKET
+ key 110   INSERT
+ key 111   FORWARD_DEL
+ # key 112 "KEY_MACRO"
+@@ -191,13 +191,13 @@
+ key 169   CALL
+ # key 170 "KEY_ISO"
+ key 171   MUSIC
+-key 172   HOME
++key 172   EQUALS
+ # key 173 "KEY_REFRESH"
+ # key 174 "KEY_EXIT"
+ # key 175 "KEY_MOVE"
+ # key 176 "KEY_EDIT"
+-key 177   PAGE_UP
+-key 178   PAGE_DOWN
++key 177   LEFT_BRACKET
++key 178   RIGHT_BRACKET
+ key 179   NUMPAD_LEFT_PAREN
+ key 180   NUMPAD_RIGHT_PAREN
+ # key 181 "KEY_NEW"
+@@ -243,12 +243,12 @@
+ # key 221 "KEY_SHOP"
+ # key 222 "KEY_ALTERASE"
+ # key 223 "KEY_CANCEL"
+-key 223 RECENTAPP
+-key 224 ANDROID
+-key 225 CCSEARCH
+-key 226 CC111
+-key 227 CC222
+-key 228 SOUND
++key 223 MINUS
++key 224 BACKSLASH
++key 225 SEMICOLON
++key 226 COMMA
++key 227 PERIOD
++key 228 APOSTROPHE
+ 
+ key 256   BUTTON_1
+ key 257   BUTTON_2
